@@ -9,7 +9,7 @@ class VapoursynthLsmas < Formula
   depends_on "pkgconf" => :build
 
   depends_on "ahobsonsayers/valve/l-smash"
-  depends_on "ahobsonsayers/valve/vapoursynth-ffmpeg"
+  depends_on "ffmpeg"
   depends_on "vapoursynth"
   depends_on "xxhash"
 
