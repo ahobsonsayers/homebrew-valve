@@ -3,7 +3,7 @@ class Obuparse < Formula
   homepage "https://github.com/dwbuiten/obuparse"
   license "ISC"
   head "https://github.com/dwbuiten/obuparse.git"
-    
+
   def install
     system "make", "install", "PREFIX=#{prefix}"
     system "make", "install-tools", "PREFIX=#{prefix}"
