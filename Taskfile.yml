@@ -1,0 +1,7 @@
+# https://taskfile.dev
+version: "3"
+
+tasks:
+  format:
+    cmds:
+      - find . -type f -name "*.rb" -exec rufo {} \;
